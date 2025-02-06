@@ -5,6 +5,7 @@ typedef struct node {
   int value;
   struct node *left;
   struct node *right;
+  int height;
 } node;
 
 typedef node *tree;
